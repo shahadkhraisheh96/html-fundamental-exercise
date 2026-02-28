@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>exercies 1</h1>
+    <h2>User Registration Form</h2>
+
+    <label>Name
+    <input type="text">
+    </label>
+
+    <label>Email
+    <input type="email" required>
+    </label>
+
+    <label>password
+    <input type="password">
+    </label>
+
+    <label>Date Of Birth
+    <input type="date">
+    </label>
+
+    <label>Profile Picture Upload
+    <input type="file">
+    </label>
+
+    <button type="submit">Submit</button>
+
+    <h1>exercies 2</h1>
+
+    <h2>
+        User Preferences
+    </h2>
+    <textarea rows="4" cols="40">About Me</textarea>
+    <br>
+    <label>Country</label>
+    <select>
+        <option value="Amman">  Amman </option>
+        <option value="zarqa">Zarqa</option>
+        <option value="salt">Salt</option>
+    </select>
+    <fieldset>
+        <legend> Contact Preference </legend>
+        <label>Email</label>
+        <input type="radio" name="content" value="Email">
+        <label>password</label>
+        <input type="radio" name="content" value="password">
+    </fieldset>
+
+    <h1>exercies 3</h1>
+    <form action="https://example.com/submit" method="post" target="_blank" autocomplete="off">
+        <label>Email
+            <input type="email" required>
+            <button type="submit">submit</button>
+        </label>
+
+     
+    </form>
+       <h1>exercies 4</h1>
+        <form method="post">
+            <h3>Survey Form</h3>
+            <label>UserName
+                <input type="text" max="10" required>
+            </label>
+            <label>
+                Age
+                <input type="number" max="60" min="18">
+            </label>
+            <label>
+                favorite programming Languge 
+                <input input="text" list="Languge"> 
+                <datalist id="Languge">
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                </datalist>
+            </label>
+
+        </form>
+        
+</body>
+</html>
